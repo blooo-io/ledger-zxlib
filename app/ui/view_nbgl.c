@@ -110,7 +110,7 @@ static void h_approve_internal(void) { h_approve(review_type); }
 #endif
 
 static const char *const INFO_KEYS_PAGE[] = {"Version", "Developed by", "Website", "License"};
-static const char *const INFO_VALUES_PAGE[] = {APPVERSION, "Zondax AG", "https://zondax.ch", "Apache 2.0"};
+static const char *const INFO_VALUES_PAGE[] = {APPVERSION, "Blooo", "https://blooo.io", "Apache 2.0"};
 
 static nbgl_contentInfoList_t infoList = {0};
 static nbgl_genericContents_t settingContents = {0};

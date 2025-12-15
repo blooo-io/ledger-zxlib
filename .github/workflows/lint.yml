@@ -41,9 +41,8 @@ jobs:
           ignore: "build|.github|cmake|fuzzing|.vscode|.idea"
           step-summary: true
           style: file # uses .clang-format
-          thread-comments: true
+          thread-comments: false  # Disabled: forks can't post to upstream
           tidy-checks: "-*" # disable clang-tidy, only use clang-format
-          format-review-errors: false # ignore parsing errors, only check formatting
 
       - name: Fail if errors
         if: ${{ steps.linter.outputs['checks-failed'] > 0 }}

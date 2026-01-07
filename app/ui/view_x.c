@@ -115,13 +115,13 @@ UX_STEP_NOCB_INIT(ux_review_skip_step, nn,
 UX_STEP_CB(ux_idle_flow_4_step, bn, h_secret_click(),
            {
                "Developed by:",
-               "Zondax.ch",
+               "Blooo.io",
            });
 #else
 UX_STEP_NOCB(ux_idle_flow_4_step, bn,
              {
                  "Developed by:",
-                 "Zondax.ch",
+                 "Blooo.io",
              });
 #endif
 
@@ -183,7 +183,7 @@ UX_STEP_CB_INIT(ux_menu_init_flow_2_step, bn, NULL, h_initialize(),
 UX_STEP_NOCB(ux_menu_init_flow_4_step, bn,
              {
                  "Developed by:",
-                 "Zondax.ch",
+                 "Blooo.io",
              });
 
 const ux_flow_step_t *const ux_menu_initialize[] = {
